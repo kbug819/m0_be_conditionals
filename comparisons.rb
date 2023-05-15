@@ -100,15 +100,21 @@ age = 1
 
 # YOU DO:
 # Determine if the dog loves to play and loves treats
-
+puts loves_to_play && loves_treats
 
 # Determine if the dog loves to play and loves the dog park
-
+puts loves_to_play && loves_dog_park
 
 # Determine if the dog loves to play or loves the dog park
-
+puts loves_to_play || lovves_dog_park
 
 # Determine if the dog loves to play and is a puppy
+puts loves_to_play && age
 
 # What did your final line of code evaluate to? Why do you think that is? Explain.
-# ANSWER:
+# ANSWER: My final line of code was '1', I believe I got this answer because the variable for
+# 'age' is set to an integer and not a boolean so it returned the integer set as the variable.
+#If I add a variable with this information and rerun, I should get 'true'
+
+puppy = true
+puts loves_to_play && puppy
