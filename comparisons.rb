@@ -60,7 +60,7 @@ puts "Is number_students less than or equal to 21?", number_students <= 21
 # Make sure YOU can explain it that way!
 
 puts 4 < 9
-#This line is checking to see if 4 is less than 9. This should print to: true and 4 is less than 9
+#This line is checking to see if 4 is less than 9. This should print to: true as 4 is less than 9
 
 books = 3
 puts 4 < books
@@ -106,7 +106,7 @@ puts loves_to_play && loves_treats
 puts loves_to_play && loves_dog_park
 
 # Determine if the dog loves to play or loves the dog park
-puts loves_to_play || lovves_dog_park
+puts loves_to_play || loves_dog_park
 
 # Determine if the dog loves to play and is a puppy
 puts loves_to_play && age

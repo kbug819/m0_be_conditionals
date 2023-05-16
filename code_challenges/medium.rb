@@ -17,14 +17,14 @@
 #- If the user is not over 25 and has a bad driving record, 
 #they need to have someone else sign for the rental
 
-good_driving_record = true
-age = 26
+good_driving_record = false
+age = 24
 
 if good_driving_record == true && age > 25
     puts "You will get a discount on the car rental!"
 elsif good_driving_record == true || age > 25
     puts "You will pay full price for your rental"
-else good_driving_record == false && age < 25
+elsif good_driving_record == false && age < 25
     puts "You will need someone else to rent this car"
 
 end

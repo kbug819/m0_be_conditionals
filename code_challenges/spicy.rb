@@ -9,16 +9,31 @@
 #print "FizzBuzz". If the Integer is not a multiple of either, 
 #print the Integer itself.
 
-number = 17
+number = 9
 
-range = 1..number
-  multiples = [5]
-  if number < 0
-    return 0
-  else range.each{|x|
-    if x % 3 == 0 || x % 5 == 0
-      multiples << x
-    end
-    }
+#Trial 1
+#range = 1..number
+ # multiples = [5]
+ # if number < 0
+ #   return 0
+ # else range.each{|x|
+  #  if x % 3 == 0 || x % 5 == 0
+   #   multiples << x
+    #end
+   # }
+  #end
+  #multiples.sum
+
+
+  #Trial 2
+
+
+  if (number%3) == 0 && (number%5) == 0
+    puts "FizzBuzz" 
+  elsif (number%5) == 0
+    puts "Buzz"
+  elsif (number%3) == 0
+    puts "Fizz"
+  else
+    print number
   end
-  multiples.sum

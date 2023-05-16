@@ -41,9 +41,9 @@ end
 # Experiment with manipulating the value held within num_quarters
 # to make sure both conditions can be achieved.
 
-num_quarters = 1
+num_quarters = 3
 
-if num_quarters >= 0.05
+if num_quarters >= 2
   puts "I have enough money for a gumball"
 else 
   puts "I don't have enough money for a gumball"
@@ -63,7 +63,7 @@ end
 # Experiment with manipulating the value held within both variables
 # to make sure all above conditions output what you expect.
 
-cups_of_flour = 2
+cups_of_flour = 5
 has_sauce = true
 
 
