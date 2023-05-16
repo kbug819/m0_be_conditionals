@@ -17,11 +17,7 @@ Write a Ruby program that defines a variable that stores an Integer. The program
 
 ## Medium
 
-Using the following variables:
 
-```ruby
-good_driving_record = true
-age = 24
 ```
 
 Write a program that evaluates the status of the variables above, and uses logic to print one of three possible messages:

@@ -8,3 +8,17 @@
 #"Buzz". If the Integer is a multiple of both 3 and 5, 
 #print "FizzBuzz". If the Integer is not a multiple of either, 
 #print the Integer itself.
+
+number = 17
+
+range = 1..number
+  multiples = [5]
+  if number < 0
+    return 0
+  else range.each{|x|
+    if x % 3 == 0 || x % 5 == 0
+      multiples << x
+    end
+    }
+  end
+  multiples.sum
