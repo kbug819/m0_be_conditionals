@@ -9,7 +9,7 @@
 #print "FizzBuzz". If the Integer is not a multiple of either, 
 #print the Integer itself.
 
-number = 9
+number = 15
 
 #Trial 1
 #range = 1..number
