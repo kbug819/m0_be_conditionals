@@ -9,7 +9,7 @@
 #print "FizzBuzz". If the Integer is not a multiple of either, 
 #print the Integer itself.
 
-number = 15
+number = 7
 
 #Trial 1
 #range = 1..number
@@ -35,5 +35,5 @@ number = 15
   elsif (number%3) == 0
     puts "Fizz"
   else
-    print number
+    puts number
   end
